@@ -4,11 +4,11 @@ import bodyParser from 'body-parser';
 
 // Database Connection
 const db = new pg.Client({
-  // config
-  connectionString: 'postgres://fmwpeznu:5n9WB3JWCVydOFtdP8lTtQVGXYJ1kIvf@arjuna.db.elephantsql.com/fmwpeznu',
-  password: '5n9WB3JWCVydOFtdP8lTtQVGXYJ1kIvf',
-  user: 'fmwpeznu',
-  database: 'fmwpeznu'
+  // configpostgres:
+  connectionString: 'postgres://jbdztohs:CyKK_oEPn0qZxP-svsqhH9iy-x_kckvd@silly.db.elephantsql.com/jbdztohs',
+  password: 'CyKK_oEPn0qZxP-svsqhH9iy-x_kckvd',
+  user: 'jbdztohs',
+  database: 'jbdztohs'
 })
 db.connect()
 
